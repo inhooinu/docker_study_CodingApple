@@ -1,0 +1,10 @@
+services:
+  webserver:
+    image: nodeserver:1
+    ports:
+      - 8080:8080
+
+  nginx:
+    image: nginx:1
+    ports:
+      - 80:80
